@@ -69,6 +69,7 @@ const App: () => Node = () => {
         style={backgroundStyle}>
         <Header />
         <View
+          // eslint-disable-next-line react-native/no-inline-styles
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
             justifyContent: 'center',
