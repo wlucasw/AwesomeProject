@@ -18,6 +18,8 @@ import {
   View,
 } from 'react-native';
 
+import Hello from './Hello';
+
 import {
   Colors,
   DebugInstructions,
@@ -69,7 +71,9 @@ const App: () => Node = () => {
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
+            justifyContent: 'center',
           }}>
+          <Hello />
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
