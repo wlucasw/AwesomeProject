@@ -5,11 +5,13 @@ exports[`renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
+      "alignSelf": "center",
       "backgroundColor": "red",
       "flex": 1,
-      "height": 200,
+      "height": 150,
       "justifyContent": "center",
-      "width": 200,
+      "margin": 10,
+      "width": 150,
     }
   }
 >

@@ -11,14 +11,15 @@ const styles = StyleSheet.create({
 const Hello = () => {
   return (
     <View
-      // eslint-disable-next-line react-native/no-inline-styles
       style={{
         flex: 1,
         justifyContent: 'center',
+        alignSelf: 'center',
         alignItems: 'center',
-        width: 200,
-        height: 200,
+        width: 150,
+        height: 150,
         backgroundColor: 'red',
+        margin: 10,
       }}>
       <Text style={styles.green}>Hello !</Text>
     </View>

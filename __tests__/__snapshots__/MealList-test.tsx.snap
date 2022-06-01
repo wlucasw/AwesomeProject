@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    Apple Frangipan Tart
+     : 
+    British
+     
+    Dessert
+  </Text>
+  <Text>
+    Apple & Blackberry Crumble
+     : 
+    British
+     
+    Dessert
+  </Text>
+  <Text>
+    Apam balik
+     : 
+    Malaysian
+     
+    Dessert
+  </Text>
+  <Text>
+    Ayam Percik
+     : 
+    Malaysian
+     
+    Chicken
+  </Text>
+</View>
+`;
